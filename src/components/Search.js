@@ -24,7 +24,7 @@ const Search = () => {
         fetchRandomMeal()
     }
 
-    return <header className="search-container">Search Component
+    return <header className="search-container">
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Search for a meal" className="form-input" 
             value={text} onChange={handleChange}/>
